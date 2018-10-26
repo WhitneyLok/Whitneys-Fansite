@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=KoHo');
 #banner{
 	    width:500px;
 		margin:auto;
@@ -20,9 +21,14 @@
 		text-align: center;
 }
 #main{
-		width:36px;
+		width:500px;
 		margin-left: auto;
 		margin-right: auto;
+		border: groove 10px #ffcc00;
+		background-image:url("https://c.stocksy.com/a/baF200/z9/536585.jpg");
+        background-size:100%;
+		color:aqua;
+		font-family: 'KoHo', sans-serif;
 }
 #footer{
 	width:500px;
@@ -45,7 +51,7 @@ body{
 }
 #nav a{
 	font-family: 'Shadows into Light', cursive;
-	color:#009999;
+	color:#0000cc;
 	text-transform: uppercase;
 	margin-right: 10px;
 	padding:10px;
