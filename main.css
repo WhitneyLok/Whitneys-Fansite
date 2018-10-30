@@ -21,13 +21,14 @@
 		text-align: center;
 }
 #main{
-		width:500px;
+		width:600px;
 		margin-left: auto;
 		margin-right: auto;
 		border: groove 10px #ffcc00;
 		background-image:url("https://c.stocksy.com/a/baF200/z9/536585.jpg");
         background-size:100%;
 		color:aqua;
+		font-size: 20px;
 		font-family: 'KoHo', sans-serif;
 }
 #footer{
@@ -63,4 +64,7 @@ body{
 .imgRight{
 	float:right;
 	margin-left: 15;
+}
+.halloween{
+	font-size: 36px; !importance
 }
