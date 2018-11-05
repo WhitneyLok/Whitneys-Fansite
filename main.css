@@ -5,7 +5,7 @@
 #banner{
 	    width:500px;
 		margin:auto;
-		border: gold 10px inset;
+		border: white 10px inset;
 		text-align:center;
 		background-image:url("https://c.stocksy.com/a/9Ub500/z9/1335737.jpg");
 		background-size: 100%;
@@ -17,17 +17,36 @@
 
 }
 #nav{
-		white-space: nowrap;
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    white-space: nowrap;
 		text-align: center;
+		background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 17%,#fba6e1 17%,#fd89d7 40%,#fba6e1 60%,#fd89d7 77%,#fd89d7 86%,#ff7cd8 100%);
+		border: groove 10px white;
+		width: 800px;
+		margin: 0 auto;
 }
+#nav a{
+	font-family: 'Shadows into Light', cursive;
+	color:#0000cc;
+	text-transform: underline;
+}
+#nav a:hover{
+	font-family: 'Shadows into Light', cursive;
+	color:#0000cc;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
 #main{
 		width:600px;
 		margin-left: auto;
 		margin-right: auto;
-		border: groove 10px #ffcc00;
+		border: groove 10px white;
 		background-image:url("https://c.stocksy.com/a/baF200/z9/536585.jpg");
         background-size:100%;
-		color:aqua;
+		color:#e6f5ff;
 		font-size: 20px;
 		font-family: 'KoHo', sans-serif;
 }
@@ -36,12 +55,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Indie Flower', cursive;
-	border: gold 10px outset;
+	border: white 10px outset;
 	background-image: url("https://c.stocksy.com/a/G6r700/z1/1872416.jpg");
 	font-size:20px;
 	color:blue;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-    text-transform: uppercase;
+    text-transform: underline;
     padding-top: 10px;
     border-radius: 24px;
 }
@@ -50,21 +69,7 @@ body{
     margin:0;
     font-family: 'Shadows into  Light', cursive;
 }
-#nav a{
-	font-family: 'Shadows into Light', cursive;
-	color:#0000cc;
-	text-transform: uppercase;
-	margin-right: 10px;
-	padding:10px;
-}
-.imgLeft{
-	float:left;
-	margin-right: 15;
-}
-.imgRight{
-	float:right;
-	margin-left: 15;
-}
+
 .halloween{
 	font-size: 36px; !importance
 }
