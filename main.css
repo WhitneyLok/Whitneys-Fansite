@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=KoHo');
 #banner{
-	    width:500px;
+	    width:640px;
 		margin:auto;
 		border: white 10px inset;
 		text-align:center;
@@ -24,7 +24,7 @@
 		text-align: center;
 		background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 17%,#fba6e1 17%,#fd89d7 40%,#fba6e1 60%,#fd89d7 77%,#fd89d7 86%,#ff7cd8 100%);
 		border: groove 10px white;
-		width: 800px;
+		width: 640px;
 		margin: 0 auto;
 }
 #nav a{
@@ -34,11 +34,13 @@
 }
 #nav a:hover{
 	font-family: 'Shadows into Light', cursive;
-	color:#0000cc;
+	color:aqua;
 	text-transform: uppercase;
 	margin-right: 10px;
 }
-
+a:visited{
+	color: cyan;
+}
 #main{
 		width:600px;
 		margin-left: auto;
@@ -49,16 +51,18 @@
 		color:#e6f5ff;
 		font-size: 20px;
 		font-family: 'KoHo', sans-serif;
+		padding: 20px;
+		text-shadow: 6px 7px 5px #1C6EA4;
 }
 #footer{
-	width:500px;
+	width:640px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Indie Flower', cursive;
 	border: white 10px outset;
 	background-image: url("https://c.stocksy.com/a/G6r700/z1/1872416.jpg");
 	font-size:20px;
-	color:blue;
+	color:navy;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     text-transform: underline;
     padding-top: 10px;
@@ -69,7 +73,10 @@ body{
     margin:0;
     font-family: 'Shadows into  Light', cursive;
 }
-
+.imgRight{
+	float: right;
+	padding:10px;
+}
 .halloween{
 	font-size: 36px; !importance
 }
